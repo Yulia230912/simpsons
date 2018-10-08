@@ -1,0 +1,30 @@
+body {
+  background:url(https://vignette.wikia.nocookie.net/simpsons/images/5/50/Wiki-background/revision/latest?cb=20111015160455);
+  color:rgb(197, 194, 26);
+  text-align: center;
+  position: relative;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.ico {
+  height:130px;
+  margin:10px;
+}
+img, full_image { transition: all 0.8s; }
+.full_image {
+  position:fixed;
+  display:block;
+  top:10%;
+  left:10%;
+  width:60%;
+  height:auto;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+button {
+  background-color: rgb(248, 246, 135);
+  border-radius: 30%;
+  border: 3px solid rgb(245, 242, 88);
+  color: blue;
+  width: 500px;
+  height: 60px;
+}
